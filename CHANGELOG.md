@@ -37,7 +37,7 @@
 - Fixed normals - which was causing a dot product miscalc
 <BR><BR>
 
-### 2.53 (Mar 28, 2023) 
+### 2.59 (Mar 28, 2023) 
 - Project reorg to work better with Pypi
 - Built separate sample projects: HelloWorld and Combat.
 - Added requirements.txt

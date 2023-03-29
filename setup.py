@@ -11,7 +11,7 @@ classifiers = [
  
 setup(
   name='Retro3D',
-  version='2.53',
+  version='2.59',
   description='3D Game Engine with software rendering written in Python',
   long_description_content_type='text/markdown',
   long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.md').read(),

@@ -11,7 +11,7 @@ from Retro3D import *
 ###############################################################################
 class Engine:
 
-    VERSION = 2.53
+    VERSION = 2.59
 
     DISPLAY_LIST_WIREFRAME          = 1
     DISPLAY_LIST_SHADED             = 2
