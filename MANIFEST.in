@@ -1,3 +1,8 @@
-global-include *.py *.txt *.obj *.mtl *.md *.wav
+recursive-include . *.py
+recursive-include . *.txt
+recursive-include . *.obj
+recursive-include . *.mtl
+recursive-include . *.md
 recursive-include . *.png
 recursive-include . *.ttf
+recursive-include . *.wav

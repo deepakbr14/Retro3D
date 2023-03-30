@@ -2,14 +2,23 @@
 # Welcome to Retro3D!
 Retro3D is a 3D game engine written in Python. All of the rendering is done in code (as opposed to using your 3d video card).
 <BR><BR>
-### Two ways to use Retro3D
-1) install the library using 'pip install Retro3d'
-2) clone/download the project from https://github.com/deepakbr14/Retro3D and add it to your project/solution.
+To use this library, you will need to have Python installed on your machine. The project was built using Python 3.10.10
 <BR><BR>
-### Install Requirements
-In order to run this game you will need to install its requirements.
-Using your terminal, navigate to the directory that contains the requirements.txt file and run:
-``` pip install -r requirements.txt ```
+You will also need to have pip installed. I did it on Windows like this:
+* curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+* python3 get-pip.py
+* rm get-pip.py
+<BR><BR>
+### Two ways to use Retro3D
+1) Install the library using  
+   ```pip install Retro3d```  
+2) Clone/Download the project from  
+   https://github.com/deepakbr14/Retro3D  
+   and add it to your project/solution.
+
+   Make sure to install its requirements:
+   * terminal to the Retro3D directory that has the file **`requirements.txt`**
+   * ```pip install -r requirements.txt```
 <BR><BR>
 ### Sample Project : HelloRetro3D
 https://github.com/deepakbr14/HelloRetro3D  
@@ -21,6 +30,7 @@ It just shows a rotating cube.
 https://github.com/deepakbr14/Combat  
 This is basic clone of the arcade game BattleZone. This game will show you how to handle camera rotation, model loading, sound, music, player input, and 2D HUD graphics. Retro3D uses pygame for functionality like drawing, sound, etc.
 ![Combat](https://github.com/deepakbr14/Retro3D/blob/master/doc/CombatScreenShot.png?raw=True)
+https://youtu.be/kFMuBot71Jg
 <BR><BR>
 ### How to step through Retro3D Engine Code
 I've built Retro3D using Microsoft Visual Studio Community 2019.  
